@@ -170,7 +170,7 @@ export default () => {
 `request.setRequestHooks()` 可以设置自定义 hooks;
 
 | 自定义 hook       | trigger         | 参数                                | 返回值          |
-| ----------------- | --------------- | ----------------------------------- | --------------- |
+| ----------------- | ---------------| -----------------------------------| --------------- |
 | beforeRequestHook | request 发起前  | (config, option) => {return config} | 返回最新 config |
 | afterRequestHook  | response 返回后 | (res, option) => {return res}       | 返回最终 res    |
 
